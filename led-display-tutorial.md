@@ -1,6 +1,6 @@
 ---
 title: Led Display Tutorial
-layout: post
+layout: default
 theme: jekyll-theme-slate
 ---
 # Led Display Tutorial
