@@ -1,3 +1,6 @@
+# Visual Drop
+Graphical, real-time, sound to light processing.
+
 ### Installation Instructions
 Visual Drop is a plugin for Diiagramr that can be installed directly from inside the Diiagramr application.
 
