@@ -1,3 +1,5 @@
 theme: jekyll-theme-slate
 title: Christian Nunnally
 description: A home for my projects
+github:
+  is_project_page: false
