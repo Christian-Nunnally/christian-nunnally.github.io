@@ -1,3 +1,4 @@
 theme: jekyll-theme-slate
 title: Embers
 description: A home for my projects
+github.is_project_page: false
