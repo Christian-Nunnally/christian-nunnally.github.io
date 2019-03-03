@@ -1,4 +1,4 @@
-### *Notice: Diiagramr and Visual Drop are not finished, I hesitate to even call them aplha quality. If you're interested in the project and might be interested contributing in some way feel free to reach out.*
+### *Notice: Diiagramr and Visual Drop are not finished, I hesitate to even call them alpha quality. If you're interested in the project and might be interested contributing in some way feel free to reach out.*
 
 # Visual Drop
 Graphical, real-time, sound to light processing.
