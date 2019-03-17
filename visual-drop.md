@@ -10,7 +10,7 @@ Graphical, real-time, sound to light processing.
 ### Demo #2
 <iframe width="560" height="315" src="https://www.youtube.com/embed/r4hIhaIN3ig" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-### Installation Instructions
+### Installation Instructions (Windows 10)
 Visual Drop is a plugin for Diiagramr that can be installed directly from inside the Diiagramr application.
 
 1. Download Diiagramr from [https://diiagramr.blob.core.windows.net/diiagramrinstall/setup.exe](https://diiagramr.blob.core.windows.net/diiagramrinstall/setup.exe)
