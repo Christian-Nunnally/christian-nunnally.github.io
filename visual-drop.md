@@ -1,11 +1,14 @@
-### *Notice: Diiagramr and Visual Drop are not finished. If you're interested in the project and might be interested contributing in some way feel free to reach out.*
-
 # Visual Drop
 Graphical, real-time, sound to light processing.
+
+[Github](https://github.com/Christian-Nunnally/visual-drop)
 
 The meat and potatoes of the project is currently split into two plugins. The names are not final. 
  * 'diiagramrfadecandy' is the visual side of things. Currently it wraps SharpDX for hardware accelerated graphics, and connects to [fcserver.exe](https://github.com/scanlime/fadecandy/tree/master/server) display the graphics on LEDs. 
  * 'visualdrop' is the audio side of things. Currently it depends on basswaspi.dll, bass.dll, and bassNET.dll to capture audio playing on your computer. After the audio data is captured, it does some DSP on that audio data, and them maps the live audio signals to effects.
+
+*Notice: Diiagramr and Visual Drop are not finished. If you're interested in the project and might be interested contributing in some way feel free to reach out.*
+
 
 # Videos
 ### Demo #1
@@ -17,22 +20,26 @@ The meat and potatoes of the project is currently split into two plugins. The na
 ### Demo #3
 <iframe width="560" height="315" src="https://www.youtube.com/embed/q0rIDTZ0bcU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+
 ### Installation Instructions (Windows 10)
 Visual Drop is a set of plugins for Diiagramr that can be installed directly from inside the Diiagramr application.
 
-#### Get Diiagramr
+
+#### Install Diiagramr
 1. Download Diiagramr setup.exe from [https://diiagramr.blob.core.windows.net/diiagramrinstall/setup.exe](https://diiagramr.blob.core.windows.net/diiagramrinstall/setup.exe)
 1. Run setup.exe **Windows smart screen will warn agaisnt running the application, this is because it is not a signed application. Proceed at your own risk**
 1. Click 'Install' and Diiagramr should automatically download, install, and run
 
-#### Get the plugins for Visual Drop
+
+#### Install the plugins for Visual Drop
 1. Open Diiagramr
 1. From the `Tools` menu select `Tools`-> `Libraries` to open the Library Manager
-1. In the Library Manager find 'diiagramrfadecandy'
-1. Click install, which will automatically download and install the Visual Drop plugin into Diiagramr
+1. Wait for the plugins list to load (this may take a while). In the Library Manager find 'diiagramrfadecandy'
+1. Click install, which will automatically download and install the Visual Drop plugin into Diiagramr (this may take a while)
 1. Restart Diiagramr.
 
-# History **WIP**
+
+# History **(WIP)**
 
 #### The inspiration (Version 1.0)
 It all started when I got a little [DIY color organ kit](https://www.jameco.com/jameco/products/prodds/2155541kitinstructions.pdf). No microprocessors, just good 'ol fashioned electronics. Here's a video:
