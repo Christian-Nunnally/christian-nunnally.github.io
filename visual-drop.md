@@ -24,20 +24,29 @@ The meat and potatoes of the project is currently split into two plugins. The na
 ### Installation Instructions (Windows 10)
 Visual Drop is a set of plugins for Diiagramr that can be installed directly from inside the Diiagramr application.
 
-
 #### Install Diiagramr
 1. Download Diiagramr setup.exe from [https://diiagramr.blob.core.windows.net/diiagramrinstall/setup.exe](https://diiagramr.blob.core.windows.net/diiagramrinstall/setup.exe)
 1. Run setup.exe **Windows smart screen will warn agaisnt running the application, this is because it is not a signed application. Proceed at your own risk**
 1. Click 'Install' and Diiagramr should automatically download, install, and run
 
-
 #### Install the plugins for Visual Drop
 1. Open Diiagramr
 1. From the `Tools` menu select `Tools`-> `Libraries` to open the Library Manager
-1. Wait for the plugins list to load (this may take a while). In the Library Manager find 'diiagramrfadecandy'
+1. Wait for the plugins list to load (this may take a while)
+1. In the Library Manager find 'diiagramrfadecandy'
 1. Click install, which will automatically download and install the Visual Drop plugin into Diiagramr (this may take a while)
-1. Restart Diiagramr.
+1. In the Library Manager find 'visualdrop' install that too
+1. Restart Diiagramr
 
+#### Get Bass.dll
+1. Go to http://bass.radio42.com/index.html and click download
+1. Go to https://www.un4seen.com/ and click on the download button for windows at the top of the page
+1. Go to https://www.un4seen.com/, and scroll down until you see BASSWASAPI 2.4, download that too
+1. From what you downloaded, find bass.dll, basswaspi.dll, and bass.Net.dll
+1. Copy those three .dll's into your diiagramr install directory (to get to your install directory, go to `Tools` > `Libraries` > `Open Libraries Folder`, and go back one directory)
+1. Restart Diiagramr
+
+If you have correctly done all of the steps above, you should be able to create an 'Audio Source' node on your diagram.
 
 # History **(WIP)**
 
