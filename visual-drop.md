@@ -38,15 +38,8 @@ Visual Drop is a set of plugins for Diiagramr that can be installed directly fro
 1. In the Library Manager find 'visualdrop' install that too
 1. Restart Diiagramr
 
-#### Get Bass.dll
-1. Go to http://bass.radio42.com/index.html and click download
-1. Go to https://www.un4seen.com/ and click on the download button for windows at the top of the page
-1. Go to https://www.un4seen.com/, and scroll down until you see BASSWASAPI 2.4, download that too
-1. From what you downloaded, find bass.dll, basswaspi.dll, and bass.Net.dll
-1. Copy those three .dll's into your diiagramr install directory (to get to your install directory, go to `Tools` > `Libraries` > `Open Libraries Folder`, and go back one directory)
-1. Restart Diiagramr
-
-If you have correctly done all of the steps above, you should be able to create an 'Audio Source' node on your diagram.
+#### Updating Diiagramr
+Diiagramr will automatically check for updates when you open it. If there is a new update then Diiagramr will automatically download and install it before opening.
 
 # History **(WIP)**
 
