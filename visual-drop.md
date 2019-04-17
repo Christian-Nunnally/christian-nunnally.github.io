@@ -53,13 +53,13 @@ MSGEQ7 & arduino uno & 3 x 1A LEDs
 <iframe width="560" height="315" src="https://www.youtube.com/embed/G9CXwfTenjY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 #### Version 3.0
-Arduino uno (and code) & Bass.dll & 'ColorOrgan'
+The processing speed of the Arduino Uno became a problem since I wanted to do everything in real-time. An Arduino can handle computing an FFT just fine, but trying to do more processing after the FFT was too much. To fix the limited speed of the Arduino, I decided to move the audio capture and processing into a C# application. I still relied on the Arduino to control the ws2812 LEDs I decided to use, so the C# application serially communicated the rendered video to the Arduino which was fast enough to read and display that data.
 
 #### Version 4.0
-Arduino duo (and code) & Bass.dll & 'ColorOrgan4'
+The number of LEDs that I could control was very limited by the serial communication and clock speed of the Arduino Uno, so I upgraded to an Arduino Duo, and a enhanced the communication code with a small amount of frame compression. I also realized two requirements, I needed to be able to develop the algorithm I would use to convert sound to light incrementally, and I would need it to be very modular and adapt to when I needed to change what LEDs I'm using or where the music is coming from. The UI of the application was inspired by, and looked very much like a networking rack. Each part of the sound to light process was broken into modules that had inputs and outputs. You could then drag and drop them onto an array of virtual racks and then you would 'connect' the modules together by mapping the inputs and outputs by name.
 
 #### Version 5.0
-Arduino duo (and code) & Bass.dll & 'Diiagramr' + 'Visual Drop' plugin
+Mapping out the inputs and outputs turned out to be a pain, and I wanted a visual representation of the data flow just like I had visual feedback coming from the modules themselves so I landed on a node and diagram approach, with wires representing the data flow through the modules. Since the diagram editing was totally unrelated to the color organ (just a tool I needed for it), I decided to call it Diiagramr, and allow Diiagramr to load in 'plugins' that would provide the functionality for sound/light processing. I made sure that Diiagramr was a general purpose diagram execution shell so that I, or anyone else, could reuse it for other requirements.
 
 #### Version 6.0
-FadeCandy & Bass.dll & 'Diiagramr' + 'Visual Drop' plugin
+I found out about the Fadecandy and instantly realized how much I needed it for this project. Not having to deal with slow/buggy/fragile Arduino code would allow me to focus on what I originally wanted to do, make lights light up to the beat. Fadecandy also dramatically increases the number of LEDs that can be controlled with Visual Drop. I swapped out the simple pixel by pixel graphics code I was using for Direct2D support, allowing hardware accelerated rendering of some pretty fancy stuff. Finally, I swapped out the Bass.Net dependency with the open source [CScore](https://github.com/filoe/cscore) library so that I could distribute the project to the world and make it open source. Woohoo! Another win for free software.
