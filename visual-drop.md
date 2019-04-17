@@ -1,10 +1,11 @@
 # Visual Drop
 Graphical, real-time, sound to light processing.
 
-[Github](https://github.com/Christian-Nunnally/visual-drop)
+[Diiagramr on Github](https://github.com/Christian-Nunnally/Diiagramr)
+[VisualDrop on Github](https://github.com/Christian-Nunnally/visual-drop)
 
 The meat and potatoes of the project is currently split into two plugins. The names are not final. 
- * 'diiagramrfadecandy' is the visual side of things. Currently it wraps SharpDX for hardware accelerated graphics, and connects to [fcserver.exe](https://github.com/scanlime/fadecandy/tree/master/server) display the graphics on LEDs. 
+ * 'diiagramrfadecandy' is the visual side of things. Currently it wraps SharpDX for hardware accelerated graphics, and connects to [fcserver.exe](https://github.com/scanlime/fadecandy/tree/master/server) to display the graphics on LEDs. 
  * 'visualdrop' is the audio side of things. It uses the open source [CScore by filoe](https://github.com/filoe/cscore) audio processing library to capture audio playing on your computer. After the audio data is captured, it does some DSP on that audio data, and them maps the live audio signals to effects.
 
 *Notice: Diiagramr and Visual Drop are not finished. If you're interested in the project and might be interested contributing in some way feel free to reach out.*
