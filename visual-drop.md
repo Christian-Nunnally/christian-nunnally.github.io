@@ -25,10 +25,10 @@ The meat and potatoes of the project is currently split into two plugins. The na
 ### Installation Instructions (Windows 10)
 Visual Drop is a set of plugins for Diiagramr that can be installed directly from inside the Diiagramr application.
 
-#### Install Diiagramr
-1. Download Diiagramr setup.exe from [https://diiagramr.blob.core.windows.net/diiagramrinstall/setup.exe](https://diiagramr.blob.core.windows.net/diiagramrinstall/setup.exe)
-1. Run setup.exe **Windows smart screen will warn agaisnt running the application, this is because it is not a signed application. Proceed at your own risk**
-1. Click 'Install' and Diiagramr should automatically download, install, and run
+#### ~Install Diiagramr~ (Instructions outdated, if you're interested in this project contact me.)
+1. ~Download Diiagramr setup.exe from [https://diiagramr.blob.core.windows.net/diiagramrinstall/setup.exe](https://diiagramr.blob.core.windows.net/diiagramrinstall/setup.exe)~
+1. ~Run setup.exe **Windows smart screen will warn agaisnt running the application, this is because it is not a signed application. Proceed at your own risk**~
+1. ~Click 'Install' and Diiagramr should automatically download, install, and run~
 
 #### Install the plugins for Visual Drop
 1. Open Diiagramr
